@@ -6,8 +6,9 @@ export default function() {
 }
 
 export function onOpenDocument(context){
-  console.log(`Action name: ${context.actionContext.name}`)
-  console.log(`Action: ${context.actionContext}`)
+  console.log(`Action name: ${context.action}`)
+  console.log(`Action Context: ${context.actionContext}`)
+  console.log(`Full Context: ${context}`)
   // Do something here
   // For a general overview of the Actions API, check https://developer.sketch.com/plugins/actions
   // For a complete list of other Actions, check https://developer.sketch.com/reference/action/
