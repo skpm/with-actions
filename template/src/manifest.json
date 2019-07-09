@@ -8,7 +8,7 @@
       "script": "./my-command.js",
       "handlers": {
         "actions": {
-          "ActionName": "ActionHandler"
+          "OpenDocument": "onOpenDocument"
         }
       }
     }
